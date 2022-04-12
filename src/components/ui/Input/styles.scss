@@ -1,0 +1,24 @@
+input {
+  background-color: #224957;
+
+  padding: 1rem 0 1rem 1.125rem;
+
+  &::placeholder {
+    color: #FFF;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+
+  border: 0;
+  border-radius: 10px;
+
+  width: 100%;
+
+  &:nth-child(1) {
+    margin-bottom: 2rem;
+  }
+  
+  &:nth-child(2) {
+    margin-bottom: 1.44rem;
+  }
+
+}

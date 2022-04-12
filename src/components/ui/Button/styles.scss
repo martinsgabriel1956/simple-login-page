@@ -1,0 +1,16 @@
+button.login-btn {
+  padding: 1rem;
+
+  width: 19.25rem;
+
+  background-color: var(--link);
+  border: 1px solid var(--link);
+
+  color: var(--text);
+
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

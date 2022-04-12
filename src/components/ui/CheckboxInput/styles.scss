@@ -1,0 +1,34 @@
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  label {
+    font-size: 0.875rem;
+    margin-left: 1.5rem;
+
+    color: var(--checkbox);
+    
+
+    &:before {
+      content: "";
+
+      position: absolute;
+      margin: 0 0 0;
+
+      width: 18px;
+      height: 18px;
+
+      left: 0px;
+      background-color: #224957;
+
+      border-radius: 5px;
+    }
+  }
+}
